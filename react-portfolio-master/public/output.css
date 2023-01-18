@@ -217,7 +217,7 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  -webkit-appearance: button;
+  
   /* 1 */
   background-color: transparent;
   /* 2 */
@@ -264,7 +264,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-  -webkit-appearance: textfield;
+
   /* 1 */
   outline-offset: -2px;
   /* 2 */
@@ -396,7 +396,7 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
+  
   /* 2 */
 }
 
@@ -1225,21 +1225,6 @@ body,
   content: var(--tw-content);
   --tw-border-opacity: 1;
   border-color: rgb(44 188 233 / var(--tw-border-opacity));
-}
-
-.before\:content-person1::before{
-  --tw-content: url('./assets/person-1.png');
-  content: var(--tw-content);
-}
-
-.before\:content-person2::before{
-  --tw-content: url('./assets/person-2.png');
-  content: var(--tw-content);
-}
-
-.before\:content-person3::before{
-  --tw-content: url('./assets/person-3.png');
-  content: var(--tw-content);
 }
 
 .hover\:bg-red:hover{

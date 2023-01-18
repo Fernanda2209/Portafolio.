@@ -35,11 +35,7 @@ const MySkills = () => {
               className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
               before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
             >
-              <img
-                alt="skills"
-                className="z-10"
-                src="assets/skills-image.png"
-              />
+             
             </div>
           ) : (
             <img alt="skills" className="z-10" src="assets/skills-image.png" />
