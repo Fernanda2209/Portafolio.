@@ -1,6 +1,5 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-
 const container = {
   hidden: {},
   visible: {
@@ -25,7 +24,7 @@ const Project = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
+          Curabitur arcu egjcujcuyc, accumsan id imperdiet et, porttitor at sem. Nulla
           porttitor accumsan tincidunt.
         </p>
       </div>
@@ -79,7 +78,17 @@ const Projects = () => {
           >
             THE EVOLUTION OF MY WORK
           </div>
-          <Project title="Project 1" />
+          <div className="relative opacity: 1; transform: none" >
+            <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
+              <p className="text-2xl font-playfair">Amigurumis Land</p>
+              <p className="mt-7"> Amigurumis Land is a react project
+              </p>
+            </div>
+           <img src="../assets/amigurumi-1.jpeg" alt="Amigurumis" />
+          </div>
+          
+
           <Project title="Project 2" />
 
           {/* ROW 2 */}
@@ -96,10 +105,15 @@ const Projects = () => {
           >
             THE PRACTICE AFTER THE PROCESS
           </div>
+          
         </motion.div>
+        
       </div>
     </section>
+    
   );
 };
+
+
 
 export default Projects;
