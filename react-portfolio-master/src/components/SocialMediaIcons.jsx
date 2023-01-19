@@ -1,37 +1,34 @@
+import twitter from '../assets/twitter.png';
+import linkedin from '../assets/linkedin.png';
+import instagram from '../assets/instagram.png';
+
 const SocialMediaIcons = () => {
   return (
     <div className="flex justify-center md:justify-start my-10 gap-7">
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.linkedin.com"
+        href="www.linkedin.com/in/maria-fernanda-daza-torres-5b28121b1"
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="linkedin-link" src="../assets/linkedin.png" />
+        <img src={linkedin} />
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.twitter.com"
+        href="https://github.com/Fernanda2209"
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="twitter-link" src="../assets/twitter.png" />
+        <img  src={twitter} />
       </a>
+      
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.facebook.com"
+        href="https://instagram.com/mafe_2214?igshid=YzgyMTM2MGM="
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="facebook-link" src="../assets/facebook.png" />
-      </a>
-      <a
-        className="hover:opacity-50 transition duration-500"
-        href="https://www.instagram.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img alt="instagram-link" src="../assets/instagram.png" />
+        <img  src={instagram} />
       </a>
     </div>
   );
