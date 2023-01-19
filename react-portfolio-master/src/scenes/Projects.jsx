@@ -1,5 +1,6 @@
 import LineGradient from "../components/LineGradient";
 import React from 'react';
+
 import Amigurumis from '../assets/Amigurumis.png';
 import Mortal from '../assets/Mortal.png';
 import Calculator from '../assets/Calculator.png';
@@ -68,11 +69,20 @@ const Projects = () => {
            bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
               <p className="text-2xl font-playfair">Amigurumis Land</p>
               <p className="mt-7"> Amigurumis land is a project created with react, it was focused on
-               a real customer and on the promotion of economic growth within my environment. </p>
+               a real customer and on the promotion of economic growth within my environment. <br /> <br /> </p>
+
+             <a target="_blank" href="https://amigurumis-land.vercel.app/home">
+               <button className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+              hover:bg-blue hover:text-white transition duration-500">
+              View more
+                </button>
+            </a> 
             </div>
+
            <img className="flex justify-center text-center items-center p-10 
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
                src={Amigurumis} />
+
           </div>
 
 
@@ -81,7 +91,15 @@ const Projects = () => {
            bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
               <p className="text-2xl font-playfair">Mortal Dev</p>
               <p className="mt-7"> Moratl dev is a game based on the sacrifice of developers, it was a collaborative
-               project in which the main language was javascript. </p>
+               project in which the main language was javascript. <br /> <br /></p>
+
+               <a target="_blank" href="https://mortal-dev-theta.vercel.app/">
+                 <button className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+              hover:bg-blue hover:text-white transition duration-500">
+              View more
+                 </button>
+               </a>
+               
             </div>
            <img className="flex justify-center text-center items-center p-10 
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
@@ -94,7 +112,15 @@ const Projects = () => {
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
            bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
               <p className="text-2xl font-playfair">Calculator</p>
-              <p className="mt-7"> Calculator is an imitation project of a youtube video, the code is commented. </p>
+              <p className="mt-7"> Calculator is an imitation project of a youtube video, the code is commented. <br /> <br /> </p>
+            
+              <a target="_blank" href="https://calculadora-five-rust.vercel.app/">
+                 <button className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+              hover:bg-blue hover:text-white transition duration-500">
+              View more
+                 </button>
+               </a>
+
             </div>
             <img className="flex justify-center text-center items-center p-10 
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
@@ -108,12 +134,21 @@ const Projects = () => {
            >
               <p className="text-2xl font-playfair">Dashboard Semillas</p>
               <p className="mt-7">Semillas is an emotion dashboard made from the frontend for a foundation that needed
-               to know the status of their students.</p>
+               to know the status of their students. <br /> <br /></p>
+
+               <a target="_blank" href="https://web-dasboard-semillas.vercel.app/">
+                 <button className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+              hover:bg-blue hover:text-white transition duration-500">
+              View more
+                 </button>
+               </a>
+
             </div>
             <img className="flex justify-center text-center items-center p-10 
               max-w-[375px] max-h-[375px] text-2xl font-playfair font-semibold"
                src={Semillas} />
           </div>
+
 
           <div className="relative opacity: 1; transform: none" >
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
@@ -121,7 +156,14 @@ const Projects = () => {
            >
               <p className="text-2xl font-playfair">Tetris</p>
               <p className="mt-7">Tetris is a project based on a Youtube tutorial in terms of its logic,
-               this project is commented and shows my basic knowledge of javaScript.</p>
+               this project is commented and shows my basic knowledge of javaScript. <br /> <br /></p>
+
+               <a target="_blank" href="https://tetris-r85x.vercel.app/">
+                 <button className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+              hover:bg-blue hover:text-white transition duration-500">
+              View more
+                 </button>
+               </a>
             </div>
             <img className="flex justify-center text-center items-center p-10 
               max-w-[375px] max-h-[375px] text-2xl font-playfair font-semibold"
@@ -137,6 +179,14 @@ const Projects = () => {
               <p className="text-2xl font-playfair">Web tributo</p>
               <p className="mt-7">This project was based on a we tribute to the Mandalorian series and it was also my first project, this was 
               the beginning of my career in the wonderful world of programming.</p>
+
+              <a target="_blank" href="https://fernanda2209.github.io/the-mandalorian/">
+                 <button className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+              hover:bg-blue hover:text-white transition duration-500">
+              View more
+                 </button>
+               </a>
+
             </div>
             <img className="flex justify-center text-center items-center p-10 
               max-w-[375px] max-h-[375px] text-2xl font-playfair font-semibold"
@@ -150,7 +200,17 @@ const Projects = () => {
            >
               <p className="text-2xl font-playfair">React To do list</p>
               <p className="mt-7">This todo list is a basic react project that is commented and
-               evidences my knowledge of react.</p>
+               evidences my knowledge of react. <br /> <br /></p>
+               
+            <a target="_blank" href="https://to-do-list-1-ubwk.vercel.app/">
+            <button className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+              hover:bg-blue hover:text-white transition duration-500">
+              View more
+            </button>
+            </a> 
+            
+          
+        
             </div>
             <img className="flex justify-center text-center items-center p-10 
               max-w-[345px] max-h-[345px] text-2xl font-playfair font-semibold"
