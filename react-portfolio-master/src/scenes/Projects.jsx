@@ -1,9 +1,12 @@
 import LineGradient from "../components/LineGradient";
 import React from 'react';
-import Amigurumis from '../assets/Amigurumis.jpeg';
+import Amigurumis from '../assets/Amigurumis.png';
 import Mortal from '../assets/Mortal.png';
 import Calculator from '../assets/Calculator.png';
 import Semillas from '../assets/Semillas.png';
+import Todo from '../assets/To-do.png';
+import Tetris from '../assets/Tetris.png';
+import Tributo from '../assets/Tributo.png';
 import { motion } from "framer-motion";
 const container = {
   hidden: {},
@@ -54,7 +57,7 @@ const Projects = () => {
         >
           {/* ROW 1 */}
           <div
-            className="flex justify-center text-center items-center p-10 
+            className="flex justify-center text-center items-center p-10 bg-red
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             THE EVOLUTION OF MY WORK
@@ -101,20 +104,62 @@ const Projects = () => {
 
           <div className="relative opacity: 1; transform: none" >
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
+           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue"
+           >
               <p className="text-2xl font-playfair">Dashboard Semillas</p>
               <p className="mt-7">Semillas is an emotion dashboard made from the frontend for a foundation that needed
                to know the status of their students.</p>
             </div>
             <img className="flex justify-center text-center items-center p-10 
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[375px] max-h-[375px] text-2xl font-playfair font-semibold"
                src={Semillas} />
           </div>
+
+          <div className="relative opacity: 1; transform: none" >
+            <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue"
+           >
+              <p className="text-2xl font-playfair">Tetris</p>
+              <p className="mt-7">Tetris is a project based on a Youtube tutorial in terms of its logic,
+               this project is commented and shows my basic knowledge of javaScript.</p>
+            </div>
+            <img className="flex justify-center text-center items-center p-10 
+              max-w-[375px] max-h-[375px] text-2xl font-playfair font-semibold"
+               src={Tetris} />
+          </div>
           
-          
+          {/* ROW 3 */}
+
+          <div className="relative opacity: 1; transform: none" >
+            <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue"
+           >
+              <p className="text-2xl font-playfair">Web tributo</p>
+              <p className="mt-7">This project was based on a we tribute to the Mandalorian series and it was also my first project, this was 
+              the beginning of my career in the wonderful world of programming.</p>
+            </div>
+            <img className="flex justify-center text-center items-center p-10 
+              max-w-[375px] max-h-[375px] text-2xl font-playfair font-semibold"
+               src={Tributo} />
+          </div>
+
+
+          <div className="relative opacity: 1; transform: none" >
+            <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue"
+           >
+              <p className="text-2xl font-playfair">React To do list</p>
+              <p className="mt-7">This todo list is a basic react project that is commented and
+               evidences my knowledge of react.</p>
+            </div>
+            <img className="flex justify-center text-center items-center p-10 
+              max-w-[345px] max-h-[345px] text-2xl font-playfair font-semibold"
+               src={Todo} />
+          </div>
+
           
           <div
-            className="flex justify-center text-center items-center p-10 
+            className="flex justify-center text-center items-center p-10 bg-yellow
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
             THE PRACTICE AFTER THE PROCESS
