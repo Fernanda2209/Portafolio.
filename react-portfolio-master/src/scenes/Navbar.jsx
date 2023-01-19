@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Icon from '../assets/menu-icon.svg';
+import Close from '../assets/close-icon.svg';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
 
@@ -53,7 +55,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             className="rounded-full bg-red p-2"
             onClick={() => setIsMenuToggled(!isMenuToggled)}
           >
-            <img alt="menu-icon" src="../assets/menu-icon.svg" />
+            <img src={Icon} />
           </button>
         )}
 
@@ -63,7 +65,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
             {/* CLOSE ICON */}
             <div className="flex justify-end p-12">
               <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
-                <img alt="close-icon" src="../assets/close-icon.svg" />
+                <img  src={Close} />
               </button>
             </div>
 
