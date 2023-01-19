@@ -90,8 +90,8 @@ const Projects = () => {
           <div className="relative opacity: 1; transform: none" >
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
            bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
-              <p className="text-2xl font-playfair">CALCULATOR</p>
-              <p className="mt-7"> Amigurumis Land is a react project</p>
+              <p className="text-2xl font-playfair">Calculator</p>
+              <p className="mt-7"> Calculator is an imitation project of a youtube video, the code is commented. </p>
             </div>
             <img className="flex justify-center text-center items-center p-10 
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
@@ -102,8 +102,9 @@ const Projects = () => {
           <div className="relative opacity: 1; transform: none" >
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
            bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
-              <p className="text-2xl font-playfair">DASHBOARD SEMILLAS</p>
-              <p className="mt-7"> Amigurumis Land is a react project</p>
+              <p className="text-2xl font-playfair">Dashboard Semillas</p>
+              <p className="mt-7">Semillas is an emotion dashboard made from the frontend for a foundation that needed
+               to know the status of their students.</p>
             </div>
             <img className="flex justify-center text-center items-center p-10 
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
