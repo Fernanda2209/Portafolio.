@@ -59,24 +59,27 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+            max-w-[900px] max-h-[900px] text-2xl font-playfair font-semibold"
           >
             THE EVOLUTION OF MY WORK
           </div>
 
-          <div className="relative opacity: 1; transform: none" >
+          <div className="relative opacity: 1; transform: none " >
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
+           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue max-w-[900px] max-h-[900px]">
               <p className="text-2xl font-playfair">Amigurumis Land</p>
               <p className="mt-7"> Amigurumis land is a project created with react, it was focused on
                a real customer and on the promotion of economic growth within my environment. <br /> <br /> </p>
 
              <a target="_blank" href="https://amigurumis-land.vercel.app/home">
                <button className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
-              hover:bg-blue hover:text-white transition duration-500">
-              View more
+              hover:bg-blue hover:text-white transition duration-500" >
+              View more <br />
                 </button>
             </a> 
+           
+          
+         
             </div>
 
            <img className="flex justify-center text-center items-center p-10 
@@ -178,14 +181,17 @@ const Projects = () => {
            >
               <p className="text-2xl font-playfair">Web tributo</p>
               <p className="mt-7">This project was based on a we tribute to the Mandalorian series and it was also my first project, this was 
-              the beginning of my career in the wonderful world of programming.</p>
+              the beginning of my career in the wonderful world of programming. <br /> <br /></p>
 
-              <a target="_blank" href="https://fernanda2209.github.io/the-mandalorian/">
+        
+          <a target="_blank" href="https://fernanda2209.github.io/the-mandalorian/">
                  <button className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
               hover:bg-blue hover:text-white transition duration-500">
               View more
                  </button>
                </a>
+
+               
 
             </div>
             <img className="flex justify-center text-center items-center p-10 
@@ -196,7 +202,7 @@ const Projects = () => {
 
           <div className="relative opacity: 1; transform: none" >
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue"
+           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue flex justify-center text-center items-center p-10"
            >
               <p className="text-2xl font-playfair">React To do list</p>
               <p className="mt-7">This todo list is a basic react project that is commented and
@@ -211,7 +217,7 @@ const Projects = () => {
             
           
         
-            </div>
+            </div >
             <img className="flex justify-center text-center items-center p-10 
               max-w-[345px] max-h-[345px] text-2xl font-playfair font-semibold"
                src={Todo} />
@@ -220,7 +226,7 @@ const Projects = () => {
           
           <div
             className="flex justify-center text-center items-center p-10 bg-yellow
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+            max-w-[800px] max-h-[800px] text-2xl font-playfair font-semibold"
           >
             THE PRACTICE AFTER THE PROCESS
           </div>
