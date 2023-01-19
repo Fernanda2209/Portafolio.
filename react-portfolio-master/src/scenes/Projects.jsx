@@ -9,13 +9,6 @@ const container = {
   },
 };
 
-const projectVariant = {
-  hidden: { opacity: 0, scale: 0.8 },
-  visible: { opacity: 1, scale: 1 },
-};
-
-
-
 const Projects = () => {
   return (
     <section id="projects" className="pt-48 pb-48">
