@@ -1,4 +1,5 @@
 import LineGradient from "../components/LineGradient";
+import React from 'react';
 import { motion } from "framer-motion";
 const container = {
   hidden: {},
@@ -54,6 +55,17 @@ const Projects = () => {
           >
             THE EVOLUTION OF MY WORK
           </div>
+
+          <div className="relative opacity: 1; transform: none" >
+            <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
+           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
+              <p className="text-2xl font-playfair">Amigurumis Land</p>
+              <p className="mt-7"> Amigurumis Land is a react project</p>
+            </div>
+           <img src='../assets/project-1.jpeg' alt="MALDITA IMAGEN" />
+          </div>
+
+
           <div className="relative opacity: 1; transform: none" >
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
            bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
@@ -62,6 +74,8 @@ const Projects = () => {
             </div>
            <img src="../assets/project-1.jpeg" alt="MALDITA IMAGEN" />
           </div>
+
+
           <div className="relative opacity: 1; transform: none" >
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
            bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
@@ -70,14 +84,8 @@ const Projects = () => {
             </div>
            <img src="../assets/project-1.jpeg" alt="MALDITA IMAGEN" />
           </div>
-          <div className="relative opacity: 1; transform: none" >
-            <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-           bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
-              <p className="text-2xl font-playfair">Amigurumis Land</p>
-              <p className="mt-7"> Amigurumis Land is a react project</p>
-            </div>
-           <img src="../assets/project-1.jpeg" alt="MALDITA IMAGEN" />
-          </div>
+
+
           <div className="relative opacity: 1; transform: none" >
             <div className="absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
            bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue">
